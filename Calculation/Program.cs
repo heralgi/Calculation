@@ -7,17 +7,17 @@ namespace Calculation
         static void Main(string[] args)
         {
             Addition addition = new Addition();
-            addition.DoAddition(5, 10);
+            Console.WriteLine("Addition {0}", addition.DoAddition(5, 10));
 
             Substraction substraction = new Substraction();
-            substraction.DoSubstraction(10, 5);
+            Console.WriteLine("Substraction:{0}", substraction.DoSubstraction(10, 5));
            
 
             Multiplication multiplication = new Multiplication();
-            multiplication.DoMultiplication(5, 10);
+            Console.WriteLine("Multiplication: {0}",multiplication.DoMultiply(5, 10));
 
             Division division = new Division();
-            division.DoDivision(5, 10);
+            Console.WriteLine("Division: {0}", division.DoDivision(5, 10));
         }
 
        
